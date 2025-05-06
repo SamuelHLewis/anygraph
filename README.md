@@ -1,7 +1,7 @@
 # anygraph
 An interactive tool for tabular data exploration.
 
-# Installation
+## Installation
 These instructions assume that you have python and git already installed on your computer.
 1. Clone the repo and move into the dir
 ```
@@ -24,7 +24,16 @@ python -m pip install --upgrade pip
 ```
 python -m pip install -r requirements.txt
 ```
-6. Run the app
+
+## Usage
+
+To launch the app, make sure you have the python environment created above loaded, and then run the following in your terminal:
 ```
 streamlit run app.py
 ```
+
+This allows you to load any CSV file. If you would like to create an example CSV file for debugging or demonstration purposes, run the following:
+```
+python scripts/create_example_data.py
+```
+This will write the file `example_data.csv` to the `data` dir. This file is [the iris dataset](https://scikit-learn.org/1.4/auto_examples/datasets/plot_iris_dataset.html) from sklearn.
