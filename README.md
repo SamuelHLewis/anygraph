@@ -24,3 +24,7 @@ python -m pip install --upgrade pip
 ```
 python -m pip install -r requirements.txt
 ```
+6. Run the app
+```
+streamlit run app.py
+```
